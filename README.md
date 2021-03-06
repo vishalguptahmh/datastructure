@@ -12,6 +12,7 @@ ex: for making a tea.. you have to put water, tea leaves, milk , sugar..and then
 
 ## Recursion
 calling same method again and again
+
 ex. 
 - finding factorial
 - finding fibonacci
@@ -22,3 +23,16 @@ ex.
 | Space Complexity     | No | Yes | Interally system is using stack as memory but for iteration we are using variables |
 | Time Complexity     | No        | Yes | System is using stack in recursion so it will take time to push and pop |
 | Ease of code (to solve subproblem) | Yes       |   No | When there is case when we can divide the problem in simlar problems then Recursion will help to divide in subproblems which is better approch |
+
+
+## When to avoid and use Recursion
+- When we can divide problem into simlar problems then we have to use recursion
+- when there is no bound for time and space then we can use recursion. for example we have to program for air bag..in which case time is crucial point and another example embedded system where storage is important point.. so at these places we have to avoid using recursion
+
+## Practical uses
+- stack
+- Tree - Traversal/Insertion/Deletion/Searching
+- Sorting - Quick and Merge sort
+- Divide and conqur
+- Dynamic Programming and many more.
+- 
